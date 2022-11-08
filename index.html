@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build58.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Build59.json", {onProgress: UnityProgress});
     </script>
 
     <script type = "text/javascript" language = "javascript">
@@ -146,7 +146,7 @@
 
 
     function VerticalInitialization() {
-      unityInstance.SendMessage('PlatformManager', 'VerticalInitialization', 0);
+      unityInstance.SendMessage('PlatformManager', 'VerticalInitialization', 1);
     }
 
     function VKAdsInitialization() {
